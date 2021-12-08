@@ -14,5 +14,5 @@ class Livro(Produto):
     def getPaginas(self):
         return self._paginas
 
-    def getPaginas(self):
+    def getAutor(self):
         return self._autor

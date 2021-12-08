@@ -37,7 +37,7 @@ class Pedido:
     def cancelar(self):
         self._cartao.estornar(self._valor)
         for prod in self._produtos:
-                 prod[0].adicionarEstoque(prod[1])
+            prod[0].adicionarEstoque(prod[1])
 
 
 
